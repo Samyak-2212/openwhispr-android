@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="General">
+        <Preference
+            app:key="transcription_settings"
+            app:title="Transcription"
+            app:summary="Configure model and language"
+            app:fragment="com.openwhispr.android.feature.settings.TranscriptionSettingsFragment" />
+        <Preference
+            app:key="ai_settings"
+            app:title="AI Settings"
+            app:summary="Configure providers and models"
+            app:fragment="com.openwhispr.android.feature.settings.AiSettingsFragment" />
+    </PreferenceCategory>
+</PreferenceScreen>

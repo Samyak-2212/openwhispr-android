@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AI provider display names -->
+    <string-array name="ai_providers">
+        <item>OpenAI</item>
+        <item>Anthropic</item>
+        <item>Google Gemini</item>
+        <item>Groq</item>
+        <item>Tinfoil</item>
+        <item>OpenWhispr Cloud</item>
+    </string-array>
+
+    <!-- AI provider keys (match InferenceProvider.providerId) -->
+    <string-array name="ai_providers_values">
+        <item>openai</item>
+        <item>anthropic</item>
+        <item>gemini</item>
+        <item>groq</item>
+        <item>tinfoil</item>
+        <item>openwhispr</item>
+    </string-array>
+</resources>
